@@ -1,13 +1,11 @@
-import lodash from 'lodash'
+import lodash from "lodash"
 //Remove "type": "module", for CommonJS
 //const lodash = require('lodash')
 
 function printNumbers() {
-  for (let i = 0; i< 100; i++){
-    console.log(lodash.padStart(String(i), 5))
-  }
+    for (let i = 0; i < 100; i++) {
+        console.log(lodash.padStart(String(i), 5))
+    }
 }
 
-export {
-  printNumbers
-}
+export { printNumbers }
