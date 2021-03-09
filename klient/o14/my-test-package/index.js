@@ -1,5 +1,2 @@
-import lodash from 'lodash'
-
-for (let i = 0; i< 100; i++){
-  console.log(lodash.padStart(String(i), 5))
-}
+import { printNumbers } from './mymodule.js'
+printNumbers()
