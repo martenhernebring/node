@@ -1,0 +1,4 @@
+/* för att ändra variabler för Bootstrap sätter vi dem innan vi inkluderar */
+@use '~bootstrap/scss/bootstrap' with (
+    $enable-rounded: false,
+);
